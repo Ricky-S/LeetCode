@@ -18,7 +18,7 @@ Explanation: "leeto" did not occur in "leetcode", so we return -1.
 
 Idea:\
 compare every char. basic method.
-it canbe 
+i++ can be updated.
 
 ```cpp
 class Solution {
