@@ -1,10 +1,88 @@
 # [LEARN C++](https://www.learncpp.com/)
 
 
-## 1.2 — Comments
-At the library, program, or function level, use comments to describe what.\
-Inside the library, program, or function, use comments to describe how.\
-At the statement level, use comments to describe why.
+## 2.1 — Introduction to functions
+```cpp
+returnType functionName() 
+// This is the function header (tells the compiler about the existence of the function)
+{
+    // This is the function body (tells the compiler what the function does)
+}
+
+// OR
+return-type identifier() // identifier replaced with the name of your function
+{
+// Your code here
+}
+```
+## 2.2 — Function return values (value-returning functions)
+
+modular programming: the ability to write a function, test it, ensure that it works, and then know that we can reuse it as many times as we want and it will continue to work (so long as we don’t modify the function -- at which point we’ll have to retest it).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 1.4 — Variable assignment and initialization
 **Best practice** 
