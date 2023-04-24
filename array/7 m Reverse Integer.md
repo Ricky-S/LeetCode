@@ -23,8 +23,11 @@ Output: 21
 ```
 
 idea:
-it may exceed the intmax or intmin.
-
+it may exceed the INT_MAX or INT_MIN.\
+But we need to think what if we cannot use long long type.\
+int     2 or 4 bytes	\
+long	4 bytes\
+longlong 8bytes
 
 ```c++
 class Solution {
