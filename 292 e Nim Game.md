@@ -39,10 +39,15 @@ Constraints\
 idea:
 
 if n == 1, I win;
+
 if n == 2, I win;
+
 if n == 3, I win;
+
 if n == 4, I can take x (from 1-3) stones, and friend take (4-x) stones. lose.
+
 if n == 5, I take 1 first and left 4 stones. same as previous step. I win.
+
 if n == 6, I take 2 stones and let 4 stones.
 ...
 
