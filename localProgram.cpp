@@ -17,6 +17,8 @@ public:
                 // result.push_back(s[i]);
             }
         }
+
+                
         int i = 0, jStar = 0, sIndex = 0;
         for (sIndex = 0; sIndex < s.size(); sIndex++) {
             if (s[sIndex] == '*') {
