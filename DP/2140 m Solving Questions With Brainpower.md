@@ -7,10 +7,7 @@ If question 0 is solved, you will earn 3 points but you will be unable to solve 
 If instead, question 0 is skipped and question 1 is solved, you will earn 4 points but you will be unable to solve questions 2 and 3.
 Return the maximum points you can earn for the exam.
 
-```
-F(0) = 0, F(1) = 1
-F(n) = F(n - 1) + F(n - 2), for n > 1.
-```
+
 
 example 1\
 
