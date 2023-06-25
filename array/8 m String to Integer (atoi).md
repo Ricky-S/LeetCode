@@ -173,3 +173,44 @@ public:
 };
 ```
 
+My updated solution:
+
+```cpp
+class Solution {
+public:
+    int myAtoi(string s) {
+
+        // bool spaceFlag = true;
+        // bool negRes = false;
+        // bool numFinish = false;
+        // bool firstTime = true;
+        // char firstChar = s[0];
+        // long long res = 0;
+        int result = 0;
+        int index = 0;
+        while (s[index] == ' ') index++;
+
+        if (s[index] != '-' && s[index] != '+'  && (s[index] -'0' < 0 || s[index] -'9' > 0 )) return 0;
+
+        if (s[index] == '-') {
+            index++;
+            while(s[index]-'0' >= 0 && s[index]-'0' <= 9) {
+                // cout << result << ", " << s[index] << ", " << s[index] - '0' << endl;
+                if (result < INT_MIN/10 || ((result == INT_MIN / 10 && s[index] - '0' > 8))) return INT_MIN;
+                else result = result*10 - (s[index] -'0');
+                index++;
+            }
+            return result;
+        } else  {
+            if (s[index] == '+') index++;
+            while(s[index]-'0' >= 0 && s[index]-'0' <= 9) {
+                if (result > INT_MAX/10 || ((result == INT_MAX / 10 && s[index] - '0' > 7))) return INT_MAX;
+                else result = result*10 -'0' + s[index];
+                index++;
+            }
+            return result;        
+        }
+        return 0;
+    }
+};
+```
