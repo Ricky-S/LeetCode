@@ -5,31 +5,55 @@ using namespace std;
 
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) {
-        int fast = 1, slow = 0, dupCount = 0, current;
-        int n = nums.size();
-        if (n <= 2) return n;
-        else {
-            while (fast < n) {
-                if(nums[slow] != nums[fast]) {
-                    slow=fast;
-                    fast++; 
-                    dupCount = 0;
-                } else {
-                    dupCount++;
-                    if (dupCount >= 2) {
-                        for (int ii = fast; ii < n-1; ii++) {
-                            nums[ii] = nums[ii+1];
-                        }
-                        n--;
-                    } else {
-                        fast++;
+    int maxConsecutiveAnswers(string answerKey, int k) {
+        int maxLen = 0;
+        int kLen = k;
+        int i = 0;
+        int j = 0;
+        int keyLen = 0;
+        for (i = 0; i < answerKey.size(); i++) {
+            if (answerKey[i] == 'T') {
+                keyLen++;
+            } else {
+                kLen--;
+                
+                if(kLen == -1) {
+                    kLen++;
+                    while(answerKey[j] == 'T') {
+                        keyLen--;
+                        j++;
                     }
+                    j++;
+                } else {
+                    keyLen++;
                 }
-                cout << slow << " " << fast << " " << dupCount << " " << n << endl;
             }
+            maxLen = max(maxLen, keyLen);
+            cout << kLen << " " << maxLen << endl;
         }
-        return n;
+        keyLen = 0;
+        kLen = k;
+        j = 0;
+        for (i = 0; i < answerKey.size(); i++) {
+            if (answerKey[i] == 'F') {
+                keyLen++;
+            } else {
+                kLen--;
+                
+                if(kLen == -1) {
+                    kLen++;
+                    while(answerKey[j] == 'F') {
+                        keyLen--;
+                        j++;
+                    }
+                } else {
+                    keyLen++;
+                }
+            }
+            maxLen = max(maxLen, keyLen);
+            cout << kLen << " " << maxLen << endl;
+        }
+        return maxLen;
     }
 };
 
@@ -68,10 +92,10 @@ int main() {
 
     string s1 = "leet**cod*e";
     string s2 = "erase*****";
-    string s3 = "abcdefghijklmnopqrstuvwxabcdefghijklmnopqrstuvwxabcdefghijklmnopqrstuvwxabcdefghijklmnopqrstuvwxabcdefghijklmnopqrstuvwxabcdefghijklmnopqrstuvwxz";
+    string s3 = "FTFFTFTFTTFTTFTTFFTTFFTTTTTFTTTFTFFTTFFFFFTTTTFTTTTTTTTTFTTFFTTFTFFTTTFFFFFTTTFFTTTTFTFTFFTTFTTTTTTF";
     vector<int> nums {1,2,2};
     Solution solution;
-    solution.removeDuplicates(nums);
+    solution.maxConsecutiveAnswers(s3, 32);
     // with_separator(, ", ");
     return 0;
 }
