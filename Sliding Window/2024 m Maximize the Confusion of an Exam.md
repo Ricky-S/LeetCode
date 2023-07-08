@@ -68,6 +68,8 @@ Constraints:
 
 ## Solution:
 
+[C++ | Sliding window | with explanation](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/solutions/1499005/c-sliding-window-with-explanation/)
+
 ```cpp
 class Solution {
 public:
