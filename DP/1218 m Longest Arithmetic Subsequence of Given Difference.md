@@ -70,3 +70,25 @@ public:
     }
 };
 ```
+
+3 hash map
+
+```cpp
+class Solution {
+public:
+    int longestSubsequence(vector<int>& arr, int difference) {
+        vector<int> dp(arr.size(), 0);
+        unordered_map<int, int> umap;
+        int res = 1;
+        for (auto ar : arr) {
+            if (umap.find(ar-difference) != umap.end()){
+                umap[ar] = umap[ar-difference] + 1;
+            } else{
+                umap[ar] = 1;
+            }
+            res = max(res, umap[ar]);
+        }
+        return res;
+    }
+}
+```
