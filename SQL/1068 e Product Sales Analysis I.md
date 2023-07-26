@@ -85,7 +85,8 @@ ON s.product_id = p.product_id
 OR
 
 ```sql
-SELECT p.product_name, s.year, s.price
-FROM Sales s, Product p
-WHERE s.product_id = p.product_id
+select P.product_name, S.year, S.price 
+from Sales S
+LEFT JOIN Product P
+ON P.product_id = S.product_id
 ```
