@@ -54,3 +54,12 @@ SELECT product_id
 FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y'
 ```
+
+
+```python
+import pandas as pd
+
+def find_products(products: pd.DataFrame) -> pd.DataFrame:
+    R_L_pd = products[(products['low_fats'] == 'Y') & (products['recyclable'] == 'Y')]
+    return R_L_pd[['product_id']]
+```
