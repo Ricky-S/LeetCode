@@ -57,3 +57,33 @@ FROM Views
 WHERE author_id = viewer_id
 ORDER BY id ASC
 ```
+
+[pandas solution](https://leetcode.com/problems/article-views-i/solutions/3852944/pandas-my-sql-very-simple-with-approach-and-explanation/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
+
+```python
+import pandas as pd
+
+def article_views(views: pd.DataFrame) -> pd.DataFrame:
+    same_pd = views[(views['author_id'] == views['viewer_id'])]['viewer_id'].unique()
+    same_pd = sorted(same_pd)
+    return pd.DataFrame({'id': same_pd})
+```
+
+```python
+import pandas as pd
+
+def article_views(views: pd.DataFrame) -> pd.DataFrame:
+    # Filter rows where author_id and viewer_id are the same (authors viewing their own articles)
+    authors_viewed_own_articles = views[views['author_id'] == views['viewer_id']]
+    
+    # Get unique author_ids from the filtered data
+    unique_authors = authors_viewed_own_articles['author_id'].unique()
+    
+    # Sort the unique author_ids in ascending order
+    unique_authors = sorted(unique_authors)
+    
+    # Create a DataFrame with the sorted unique author_ids and rename the 'author_id' column to 'id'
+    result_df = pd.DataFrame({'id': unique_authors})
+    
+    return result_df
+```
