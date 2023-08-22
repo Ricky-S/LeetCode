@@ -59,7 +59,7 @@
 
 ### Data Aggregation
 
-1741 - Find Total Time Spent by Each Employee - Easy
+1741 - [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
 511 - Game Play Analysis I - Easy
 
@@ -78,7 +78,7 @@
 ### Data Integration
 
 
-1050 - Actors and Directors Who Cooperated At Least Three Times - Easy
+1050 - [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
 1378 - Replace Employee ID With The Unique Identifier - Easy
 
