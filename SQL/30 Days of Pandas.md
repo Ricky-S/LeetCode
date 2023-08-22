@@ -1,0 +1,90 @@
+# this is a list of 30 days of pandas challenges
+
+
+## Database
+
+### Data Filtering
+
+
+595 - [Big Countries](https://leetcode.com/problems/big-countries/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+1757 - [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+183 - [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+1148 - [Article Views I](https://leetcode.com/problems/article-views-i/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+
+
+### String Methods
+
+1683 - [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+1873 - [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+1667 - [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+
+1517 - [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy - [detailed explanation](https://leetcode.com/problems/find-users-with-valid-e-mails/solutions/3853585/regex-explained-pandas-mysql-an-effortless-and-simple-approach-with-comments/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) 
+
+1527 - [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy -[explanation](https://leetcode.com/problems/patients-with-a-condition/solutions/3853981/pandas-mysql-an-effortless-and-simple-approach-with-comments-and-explanation/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
+
+
+### Data Manipulation
+
+
+177 - Nth Highest Salary - Medium
+
+176 - Second Highest Salary - Medium
+
+184 - Department Highest Salary - Medium
+
+178 - Rank Scores - Medium
+
+196 - [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+1795 - Rearrange Products Table - Easy
+
+
+### Statistics
+
+
+2082 - [The Number of Rich Customers](https://leetcode.com/problems/the-number-of-rich-customers/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+1173 - [Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
+
+1907 - [Count Salary Categories](https://leetcode.com/problems/count-salary-categories/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Medium
+
+
+
+### Data Aggregation
+
+1741 - Find Total Time Spent by Each Employee - Easy
+
+511 - Game Play Analysis I - Easy
+
+2356 - Number of Unique Subjects Taught by Each Teacher - Easy
+
+596 - Classes More Than 5 Students - Easy
+
+586 - Customer Placing the Largest Number of Orders - Easy
+
+1484 - Group Sold Products By The Date - Easy
+
+1693 - Daily Leads and Partners - Easy
+
+
+
+### Data Integration
+
+
+1050 - Actors and Directors Who Cooperated At Least Three Times - Easy
+
+1378 - Replace Employee ID With The Unique Identifier - Easy
+
+1280 - Students and Examinations - Easy
+
+570 - Managers with at Least 5 Direct Reports - Medium
+
+607 - Sales Person - Easy
+
