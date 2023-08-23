@@ -39,7 +39,7 @@
 
 184 - Department Highest Salary - Medium
 
-178 - Rank Scores - Medium
+178 - [Rank Scores](https://leetcode.com/problems/rank-scores/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Medium - [explanation](https://leetcode.com/problems/rank-scores/solutions/3861595/pandas-simple-2-step-approach-additional-knowledge-at-the-end/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
 196 - [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
