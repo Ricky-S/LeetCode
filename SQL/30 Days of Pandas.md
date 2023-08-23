@@ -43,7 +43,7 @@
 
 196 - [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
-1795 - Rearrange Products Table - Easy
+1795 - [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
 
 ### Statistics
