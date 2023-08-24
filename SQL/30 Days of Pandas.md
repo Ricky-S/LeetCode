@@ -61,11 +61,11 @@
 
 1741 - [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
-511 - Game Play Analysis I - Easy
+511 - [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
-2356 - Number of Unique Subjects Taught by Each Teacher - Easy
+2356 - [Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
-596 - Classes More Than 5 Students - Easy
+596 - [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
 586 - Customer Placing the Largest Number of Orders - Easy
 

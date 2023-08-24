@@ -65,3 +65,21 @@ FROM Teacher
 GROUP BY teacher_id
 ```
 
+```python
+import pandas as pd
+
+def unique_subjects_taught_by_each_teacher(teacher):
+    return teacher.groupby('teacher_id').subject_id.nunique().reset_index(name='cnt')
+```
+
+```python
+import pandas as pd
+
+def count_unique_subjects(teacher: pd.DataFrame) -> pd.DataFrame:
+    unique_subject_df = teacher.drop_duplicates(subset=['teacher_id', 'subject_id'])
+    
+    grouped_counts = unique_subject_df.groupby('teacher_id').size().reset_index(name='cnt')
+    # grouped_counts.columns = ['teacher_id', 'cnt']
+    # print(grouped_counts)
+    return grouped_counts
+```

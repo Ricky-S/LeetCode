@@ -78,3 +78,21 @@ FROM Courses
 GROUP BY class
 HAVING COUNT(DISTINCT student) >= 5
 ```
+
+```python
+import pandas as pd
+
+def find_classes(courses):
+    return courses.groupby('class').filter(lambda x: len(x) >= 5).drop_duplicates('class').reset_index(drop=True)
+
+```
+
+```python
+import pandas as pd
+
+def find_classes(courses: pd.DataFrame) -> pd.DataFrame:
+    class_df = courses.groupby('class').size().reset_index(name='count')
+    res_df = class_df[class_df['count'] >= 5]
+    print(res_df)
+    return res_df[['class']]
+```
