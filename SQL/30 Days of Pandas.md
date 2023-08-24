@@ -80,9 +80,9 @@
 
 1050 - [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
-1378 - Replace Employee ID With The Unique Identifier - Easy
+1378 - [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/?source=submission-noac) - Easy
 
-1280 - Students and Examinations - Easy
+1280 - [Students and Examinations](https://leetcode.com/problems/students-and-examinations/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
 570 - Managers with at Least 5 Direct Reports - Medium
 

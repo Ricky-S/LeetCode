@@ -95,3 +95,14 @@ select e.name, euni.unique_id
 from Employees e left join EmployeeUNI euni
 on e.id = euni.id
 ```
+
+
+```python
+import pandas as pd
+
+def replace_employee_id(employees: pd.DataFrame, employee_uni: pd.DataFrame) -> pd.DataFrame:
+    merged_df = pd.merge(employees, employee_uni, on='id', how='left')
+    # merged_df = merged_df.fillna('null')
+    # print(merged_df)
+    return merged_df[['unique_id', 'name']]
+```
