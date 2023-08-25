@@ -88,7 +88,7 @@ LEFT JOIN EmployeeUNI eu ON e.id = eu.id
 --     e.id ASC
 ```
 
-Mysolution:
+My solution:
 
 ```sql
 select e.name, euni.unique_id
