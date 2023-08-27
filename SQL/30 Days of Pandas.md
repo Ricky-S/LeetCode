@@ -71,7 +71,7 @@
 
 1484 - Group Sold Products By The Date - Easy
 
-1693 - Daily Leads and Partners - Easy
+1693 - [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
 
 
