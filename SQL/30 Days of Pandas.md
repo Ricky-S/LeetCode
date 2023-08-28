@@ -69,7 +69,7 @@
 
 586 - Customer Placing the Largest Number of Orders - Easy
 
-1484 - Group Sold Products By The Date - Easy
+1484 - [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy - [explanation](https://leetcode.com/problems/group-sold-products-by-the-date/solutions/3896640/grouping-with-aggregations/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
 1693 - [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
