@@ -87,5 +87,5 @@
 
 570 - Managers with at Least 5 Direct Reports - Medium
 
-607 - Sales Person - Easy
+607 - Sales Person - Easy - [explanation](https://leetcode.com/problems/sales-person/solutions/3970324/pandas-easy-to-understand-properly-commented/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
