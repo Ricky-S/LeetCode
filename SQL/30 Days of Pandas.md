@@ -67,7 +67,8 @@
 
 596 - [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
-586 - Customer Placing the Largest Number of Orders - Easy
+586 - [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy - [explanation](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/solutions/3899213/pandas-2-liner-very-straightforward/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
+
 
 1484 - [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy - [explanation](https://leetcode.com/problems/group-sold-products-by-the-date/solutions/3896640/grouping-with-aggregations/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
