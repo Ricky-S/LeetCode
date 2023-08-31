@@ -35,9 +35,9 @@
 
 177 - [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Medium - [explanation](https://leetcode.com/problems/nth-highest-salary/solutions/3858402/very-simple-and-clean-pandas-with-comments/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
-176 - Second Highest Salary - Medium
+176 - [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Medium
 
-184 - Department Highest Salary - Medium
+184 - [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Medium - [explanation](https://leetcode.com/problems/department-highest-salary/solutions/3861495/pandas-very-simple-step-by-step-process-detailed/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
 178 - [Rank Scores](https://leetcode.com/problems/rank-scores/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Medium - [explanation](https://leetcode.com/problems/rank-scores/solutions/3861595/pandas-simple-2-step-approach-additional-knowledge-at-the-end/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
@@ -85,7 +85,7 @@
 
 1280 - [Students and Examinations](https://leetcode.com/problems/students-and-examinations/submissions/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy
 
-570 - Managers with at Least 5 Direct Reports - Medium
+570 - [Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Medium
 
-607 - Sales Person - Easy - [explanation](https://leetcode.com/problems/sales-person/solutions/3970324/pandas-easy-to-understand-properly-commented/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
+607 - [Sales Person](https://leetcode.com/problems/sales-person/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Easy - [explanation](https://leetcode.com/problems/sales-person/solutions/3970324/pandas-easy-to-understand-properly-commented/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
