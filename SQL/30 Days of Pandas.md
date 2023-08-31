@@ -33,7 +33,7 @@
 ### Data Manipulation
 
 
-177 - Nth Highest Salary - Medium
+177 - [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/description/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata) - Medium - [explanation](https://leetcode.com/problems/nth-highest-salary/solutions/3858402/very-simple-and-clean-pandas-with-comments/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
 176 - Second Highest Salary - Medium
 
