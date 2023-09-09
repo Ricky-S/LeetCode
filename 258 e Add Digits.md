@@ -1,4 +1,6 @@
-# 258. Add Digits
+# [258. Add Digits](https://leetcode.com/problems/add-digits/)
+
+## Description
 
 Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
 
@@ -22,6 +24,10 @@ Constraints\
 ```cpp
 0 <= num <= 2^31 - 1
 ```
+
+
+## Solution
+
 
 idea:\
 if it is less than 10, return itself.\
