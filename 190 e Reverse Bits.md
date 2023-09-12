@@ -1,4 +1,7 @@
-# 190. Reverse Bits
+# [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+
+
+## Description
 
 Reverse bits of a given 32 bits unsigned integer.
 
@@ -20,6 +23,8 @@ Constraints\
 ```cpp
 The input must be a binary string of length 32
 ```
+
+## Solution
 
 idea:\
 use bit to calculate.
