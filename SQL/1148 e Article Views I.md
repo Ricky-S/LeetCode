@@ -58,6 +58,14 @@ WHERE author_id = viewer_id
 ORDER BY id ASC
 ```
 
+```sql
+# Write your MySQL query statement below
+select distinct author_id as id
+from Views
+where author_id=viewer_id
+order by author_id
+```
+
 [pandas solution](https://leetcode.com/problems/article-views-i/solutions/3852944/pandas-my-sql-very-simple-with-approach-and-explanation/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata)
 
 ```python
