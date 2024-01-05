@@ -84,3 +84,18 @@ public:
         return *max_element(dp.begin(), dp.end());
     }
 };
+```
+
+```python
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        lenth = len(nums)
+        res = [1] * lenth
+
+        for i in range(lenth):
+            for j in range(i):
+                if nums[j] < nums[i] and res[j] + 1 > res[i]:
+                    res[i] = res[j] + 1
+        
+        return max(res)
+```
