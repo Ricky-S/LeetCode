@@ -1,4 +1,4 @@
-# 169 Majority Element
+# [169 Majority Element](https://leetcode.com/problems/majority-element/description/?envType=daily-question&envId=2024-02-12)
 
 Given an array of size n, find the majority element. The majority element is the element that appears more than [n/2] times.
 
@@ -39,6 +39,13 @@ public:
         return 0;
     }
 };
+```
+
+```python
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        counts = Counter(nums)
+        return max(counts.keys(), key=counts.get)
 ```
 
 Other idea:
