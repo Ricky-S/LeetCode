@@ -65,3 +65,13 @@ FROM Cinema
 WHERE id % 2 = 1 AND description <> 'boring'
 ORDER BY rating DESC
 ```
+
+```python
+import pandas as pd
+
+def not_boring_movies(cinema: pd.DataFrame) -> pd.DataFrame:
+    cinema = cinema[(cinema["id"] % 2 == 1) & (~cinema["description"].str.contains("boring"))]
+    cinema = cinema.sort_values(by="id", ascending=False)
+    return cinema
+    
+```
