@@ -61,7 +61,31 @@ public:
 ```
 
 
+```python
+class Solution:
+    def fib(self, n: int) -> int:
+        if n == 0:
+            return 0
+        elif n == 1:
+            return 1
+        else:
+            dp = [0] * (n+1)
+            dp[0] = 0
+            dp[1] = 1
+            for i in range(2, n+1):
+                dp[i] = dp[i-2] + dp[i-1]
+            return dp[n]
+```
 
+```python
+class Solution:
+    def fib(self, n: int) -> int:
+        a, b, c = -1, 1, 0
+        for i in range(n):
+            a, b, c = b, c, b+c
+            # print(a, ",", b, ",", c)
+        return c
+```
 
 
 
