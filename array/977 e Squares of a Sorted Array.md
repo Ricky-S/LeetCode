@@ -56,6 +56,32 @@ public:
 ```
 
 
+```python
+class Solution:
+    def sortedSquares(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        result = [0] * n 
+        left, right = 0, n - 1 
+
+        while left <= right:
+            left_square = nums[left] ** 2
+            right_square = nums[right] ** 2
+            if left_square > right_square:
+                result[n - 1] = left_square
+                left += 1
+            else:
+                result[n - 1] = right_square
+                right -= 1
+            n -= 1  
+
+        return result
+```
+
+```python
+class Solution:
+    def sortedSquares(self, nums: List[int]) -> List[int]:
+        return sorted([i*i for i in nums])
+```
 
 
 
