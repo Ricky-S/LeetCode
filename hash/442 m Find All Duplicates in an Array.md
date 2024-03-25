@@ -76,4 +76,17 @@ public:
         return res;
     }
 };
+```
 
+```python
+class Solution:
+    def findDuplicates(self, nums: List[int]) -> List[int]:
+        nums_dict = {}
+        res = []
+        for i in nums:
+            if i in nums_dict:
+                res.append(i)
+            else:
+                nums_dict[i] = 1
+        return res
+```
