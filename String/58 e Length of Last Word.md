@@ -80,3 +80,20 @@ public:
     }
 };
 ```
+
+```python
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        return len(s.strip().split()[-1])
+```
+
+```python
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        # return len(s.rstrip().split(" ")[-1])
+        s1 = s.split(" ")
+        for i in range(len(s1) - 1, -1, -1): 
+            if s1[i] != "":
+                return len(s1[i])
+        return 0
+```
