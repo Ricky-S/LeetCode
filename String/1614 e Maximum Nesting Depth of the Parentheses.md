@@ -67,8 +67,3 @@ class Solution:
                 depth -= 1
         return max_depth
 ```
-
-```python
-def maxDepth(self, s: str) -> int:
-    return max_depth := max(depth := 0, max_depth, depth + 1 if c == '(' else depth - 1 if c == ')' else depth for c in s)
-```
