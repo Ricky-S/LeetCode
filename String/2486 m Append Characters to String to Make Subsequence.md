@@ -62,3 +62,29 @@ class Solution:
                 break
         return len(t)-t_index
 ```
+
+```python
+class Solution:
+    def appendCharacters(self, s: str, t: str) -> int:
+        s_index = 0
+        t_index = 0
+        while s_index < len(s):
+            if s[s_index] == t[t_index]:
+                t_index += 1
+            s_index += 1
+            if t_index == len(t):
+                break
+        return len(t)-t_index
+```
+
+```python
+class Solution:
+    def appendCharacters(self, s: str, t: str) -> int:
+        s_index = 0
+        t_index = 0
+        while s_index < len(s) and t_index < len(t):
+            if s[s_index] == t[t_index]:
+                t_index += 1
+            s_index += 1
+        return len(t)-t_index
+```
