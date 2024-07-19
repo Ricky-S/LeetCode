@@ -46,28 +46,6 @@ Explanation: 7 is the only lucky number since it is the minimum in its row and t
 
 ```python
 class Solution:
-    # def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
-    #     col = len(matrix[0])
-    #     row = len(matrix)
-    #     res = []
-    #     for i in range(row):
-    #         index = 0
-    #         val = 100000
-
-    #         for j in range(col):
-    #             if matrix[i][j] <= val:
-    #                 index = j
-    #                 val = matrix[i][j]
-    #         flag = 0
-    #         for k in range(row):
-    #             if matrix[k][index] <= val:
-    #                 break
-    #             else:
-    #                 flag += 1
-    #         if flag == row:
-    #             res.append(matrix[i][j])
-    #     return res
-
     def luckyNumbers(self, matrix: List[List[int]]) -> List[int]:
         row = len(matrix)
         col = len(matrix[0])
@@ -88,5 +66,30 @@ class Solution:
             if is_lucky:
                 res.append(min_val)
 
+        return res
+```
+
+```python
+class Solution:
+    def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
+        col = len(matrix[0])
+        row = len(matrix)
+        res = []
+        for i in range(row):
+            index = 0
+            val = 100000
+
+            for j in range(col):
+                if matrix[i][j] <= val:
+                    index = j
+                    val = matrix[i][j]
+            flag = 0
+            for k in range(row):
+                if val >= matrix[k][index]:
+                    flag += 1
+                else:
+                    break                    
+            if flag == row:
+                res.append(matrix[i][index])
         return res
 ```
