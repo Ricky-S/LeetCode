@@ -51,7 +51,7 @@ Note that the key 9 is not mapped to any letter: it is not necessary to map lett
 
 **Example 3:**
 
-!https://assets.leetcode.com/uploads/2023/12/27/keypadv2.png
+![](https://assets.leetcode.com/uploads/2023/12/27/keypadv2.png)
 
 ```
 Input: word = "aabbccddeeffgghhiiiiii"
