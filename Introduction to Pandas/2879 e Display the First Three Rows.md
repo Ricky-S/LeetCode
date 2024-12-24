@@ -50,7 +50,7 @@ Only the first 3 rows are displayed.
 
 ```python
 import pandas as pd
-
+# faster
 def getFirstThreeRows(employees: pd.DataFrame) -> pd.DataFrame:
     return employees.head(3)
 ```
