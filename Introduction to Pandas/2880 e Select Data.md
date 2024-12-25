@@ -2,10 +2,6 @@
 
 ## Description
 
-Write a solution to select the name and age of the student with student_id = 101.
-
-The result format is in the following example.
-
 ```
 DataFrame students
 +-------------+--------+
@@ -15,12 +11,15 @@ DataFrame students
 | name        | object |
 | age         | int    |
 +-------------+--------+
-```
-
-
-### Example 1:
 
 ```
+
+Write a solution to select the name and age of the student with `student_id = 101`.
+
+The result format is in the following example.
+
+```
+Example 1:
 Input:
 +------------+---------+-----+
 | student_id | name    | age |
@@ -32,7 +31,7 @@ Input:
 +------------+---------+-----+
 Output:
 +---------+-----+
-| name    | age | 
+| name    | age |
 +---------+-----+
 | Ulysses | 13  |
 +---------+-----+
