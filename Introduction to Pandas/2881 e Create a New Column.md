@@ -2,13 +2,24 @@
 
 ## Description
 
-A company plans to provide its employees with a bonus.
+```
+DataFrameemployees
++-------------+--------+
+| Column Name | Type.  |
++-------------+--------+
+| name        | object |
+| salary      | int.   |
++-------------+--------+
 
-Write a solution to create a new column name bonus that contains the doubled values of the salary column.
+```
+
+A company plans to provide its employees with a bonus.
+
+Write a solution to create a new column name `bonus` that contains the **doubled values** of the `salary` column.
 
 The result format is in the following example.
 
-### Example 1:
+**Example 1:**
 
 ```
 Input:
@@ -34,9 +45,11 @@ Output:
 | Finn    | 74576  | 149152 |
 | Thomas  | 24433  | 48866  |
 +---------+--------+--------+
-Explanation: 
+Explanation:
 A new column bonus is created by doubling the value in the column salary.
 ```
+
+
 
 ## Solution
 
