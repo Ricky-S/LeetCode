@@ -56,6 +56,7 @@ import pandas as pd
 
 def dropDuplicateRows(customers: pd.DataFrame) -> pd.DataFrame:
     return customers.drop_duplicates(subset=['email'])
+    
 ```
 
 ```python
