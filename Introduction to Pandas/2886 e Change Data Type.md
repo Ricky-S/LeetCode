@@ -56,9 +56,18 @@ def changeDataType(students):
 ```
 
 ```python
+# slower solution
 import pandas as pd
 
 def changeDatatype(students: pd.DataFrame) -> pd.DataFrame:
     students = students.astype({'grade': int})
     return students
+```
+
+```python
+# faster solution
+import pandas as pd
+
+def changeDatatype(students: pd.DataFrame) -> pd.DataFrame:
+    return students['grade'].astype(int)
 ```
