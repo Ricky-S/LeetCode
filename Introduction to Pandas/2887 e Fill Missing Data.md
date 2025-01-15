@@ -42,6 +42,7 @@ Explanation:
 The quantity for Wristwatch and WirelessEarbuds are filled by 0.
 ```
 
+[https://www.geeksforgeeks.org/how-to-fill-nan-values-with-mean-in-pandas/](https://www.geeksforgeeks.org/how-to-fill-nan-values-with-mean-in-pandas/)
 
 ## Solution
 
