@@ -49,7 +49,7 @@ Output:
 Explanation:
 The table is pivoted, each column represents a city, and each row represents a specific month.
 ```
-
+[More information about pivot](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html)
 
 ## Solution
 
