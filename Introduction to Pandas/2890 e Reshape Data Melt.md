@@ -50,6 +50,8 @@ The DataFrame is reshaped from wide to long format. Each row represents the sale
 
 ## Solution
 
+[https://pandas.pydata.org/docs/reference/api/pandas.melt.html](https://pandas.pydata.org/docs/reference/api/pandas.melt.html)
+
 ```python
 import pandas as pd
 
@@ -57,3 +59,9 @@ def melt_table(report):
     return report.melt(id_vars='product', var_name='quarter', value_name='sales')
 ```
 
+```python
+import pandas as pd
+
+def meltTable(report: pd.DataFrame) -> pd.DataFrame:
+    return pd.melt(report, id_vars=['product'], var_name='quarter', value_name='sales')
+```
