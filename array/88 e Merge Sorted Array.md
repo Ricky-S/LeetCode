@@ -65,3 +65,35 @@ public:
     }
 };
 ```
+
+```python
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        l = []
+        i = j = 0
+        while i < m and j < n:
+            if nums1[i] <= nums2[j]:
+                l.append(nums1[i])
+                i += 1
+            else:
+                l.append(nums2[j])
+                j += 1
+        if i < m:
+            for k in range(i, m):
+                l.append(nums1[k])
+        if j < n:
+            for k in range(j, n):
+                l.append(nums2[k])
+        print(l)
+        for a in range(m+n):
+            nums1[a] = l[a]
+```
+
+
+
+
+
+
