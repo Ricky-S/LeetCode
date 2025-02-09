@@ -118,3 +118,24 @@ public:
 };
 ```
 
+```python
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        l = s.split(' ')
+        l2 = []
+        for i in l:
+            if i != "":
+                l2.append(i)
+                # l2.append(" ")
+        # print(" ".join(l2[::-1]))
+        return " ".join(l2[::-1])
+```
+
+```python
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        return ' '.join(s.split()[::-1])
+```
+
+
+
