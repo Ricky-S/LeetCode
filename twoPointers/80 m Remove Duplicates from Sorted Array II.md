@@ -113,3 +113,28 @@ public:
     }
 };
 ```
+
+```python
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        slow = 0
+        d = {}
+        ans = 0
+        for i in range(len(nums)):
+            if nums[i] not in d:
+                nums[slow] = nums[i]
+                d[nums[i]] = 1
+                slow += 1
+                ans += 1
+            elif nums[i] in d and d[nums[i]] == 1:
+                nums[slow] = nums[i]
+                d[nums[i]] = 2
+                slow += 1
+                ans += 1
+        return ans
+```
+
+
+
+
+
