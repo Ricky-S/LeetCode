@@ -57,3 +57,21 @@ class Solution:
                 max1 = max(max1, i - min1)
         return max1
 ```
+
+```python
+class Solution:
+    def maximumDifference(self, nums: List[int]) -> int:
+        # max1 = -1
+        # min1 = nums[0]
+        # for i in nums:
+        #     min1 = min(min1, i)
+        #     if i > min1:
+        #         max1 = max(max1, i - min1)
+        # return max1
+        max1 = -1
+        for i in range(len(nums)):
+            maxli = max(nums[i:])
+            if maxli > nums[i]:
+                max1 = max(max1, maxli - nums[i])
+        return max1
+```
