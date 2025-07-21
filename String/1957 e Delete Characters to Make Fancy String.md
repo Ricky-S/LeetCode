@@ -77,3 +77,24 @@ class Solution:
 
         return "".join(li)
 ```
+
+```python
+class Solution:
+    def makeFancyString(self, s: str) -> str:
+        if len(s) <= 2:
+            return s
+
+        # li = []
+        li = s[:2]
+
+        # li.append(s[0])
+        # li.append(s[1])
+
+        for i in s[2:]:
+            if i == li[-1] and i == li[-2]:
+                pass
+            else:
+                li += i
+        return li
+        # return "".join(li)
+```
