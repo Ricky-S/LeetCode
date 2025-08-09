@@ -53,7 +53,17 @@ class Solution:
                 if n % 2 != 0:
                     return False
                 n = n/2
-        return True
+        return True     
+```
 
-        
+```python
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        dic = set()
+        for i in range(31):
+            dic.add(2**i)
+        if n in dic:
+            return True
+        else:
+            return False
 ```
