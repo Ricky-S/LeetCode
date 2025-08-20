@@ -68,8 +68,6 @@ class Solution:
 ```python
 class Solution:
     def countSquares(self, matrix: List[List[int]]) -> int:
-        m, n = len(matrix), len(matrix[0])
-
         ans = sum(matrix[0])
 
         for i in range(1, len(matrix)):
