@@ -49,3 +49,19 @@ class Solution:
                 res += v
         return res
 ```
+
+
+```python
+class Solution:
+    def maxFrequencyElements(self, nums: List[int]) -> int:
+        count = Counter(nums)
+        # max_fre = 0
+        # for v in count.values():
+        #     max_fre = max(max_fre, v)
+        max_fre = max(count.values())
+        res = 0
+        for v in count.values():
+            if v == max_fre:
+                res += v
+        return res
+```
