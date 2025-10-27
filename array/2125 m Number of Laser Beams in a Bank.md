@@ -1,5 +1,7 @@
 # [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/?envType=daily-question&envId=2024-01-03)
 
+https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/?envType=daily-question&envId=2025-10-27
+
 ## Description
 
 Anti-theft security devices are activated inside a bank. You are given a 0-indexed binary string array bank representing the floor plan of the bank, which is an m x n 2D matrix. bank[i] represents the ith row, consisting of '0's and '1's. '0' means the cell is empty, while'1' means the cell has a security device.
@@ -103,4 +105,20 @@ class Solution:
         return res
 
 
+```
+
+```python
+class Solution:
+    def numberOfBeams(self, bank: List[str]) -> int:
+        # l = [sum([int(i) for i in list(temp)]) for temp in bank]
+        # l2 = [i for i in l if i != 0]
+        # return sum(l2[i] * l2[i+1] for i in range(len(l2)-1))
+        ans = 0
+        pre = 0
+        for i in bank:
+            count = i.count('1') 
+            if count != 0:
+                ans += pre * count
+                pre = count
+        return ans
 ```
