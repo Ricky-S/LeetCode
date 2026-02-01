@@ -52,3 +52,15 @@ class Solution:
         min2 = min(nums[1:])
         return nums[0] + min1 + min2
 ```
+
+## Explanation
+
+1. We find the minimum value in the array and its index.
+2. We set the value of the minimum index to 51 to avoid it being considered again.
+3. We find the minimum value in the array and its index.
+4. We return the sum of the first element, the minimum value, and the second minimum value.
+
+## Complexity Analysis
+
+Time Complexity: O(n)
+Space Complexity: O(1)  
